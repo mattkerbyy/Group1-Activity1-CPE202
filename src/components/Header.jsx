@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
 function Header() {
     return (
         <header>
@@ -13,18 +14,18 @@ function Header() {
                 <div class="navbar-collapse collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                    <a class="nav-link active" href="#">Home
+                    <a class="nav-link active" href="#"><i class="fas fa-home"></i> Home
                         <span class="visually-hidden">(current)</span>
                     </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#"><i class="fas fa-star"></i> Features</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#"><i class="fas fa-dollar-sign"></i> Pricing</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#"><i class= "fas fa-info"></i> About</a>
                     </li>
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
